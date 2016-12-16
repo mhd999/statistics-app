@@ -1,0 +1,64 @@
+exports[`<StatTags /> renders a array of tags 1`] = `
+<div>
+  <span
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "color": "#a53d7c",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontSize": "14px",
+        "margin": "1px",
+        "marginTop": "0.2em",
+        "minHeight": "15px",
+        "outline": "none",
+        "paddingBottom": "0.2em",
+        "paddingLeft": "1em",
+        "paddingRight": "1em",
+        "paddingTop": "0.2em",
+      }
+    }>
+    tag1
+  </span>
+  <span
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "color": "#a53d7c",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontSize": "14px",
+        "margin": "1px",
+        "marginTop": "0.2em",
+        "minHeight": "15px",
+        "outline": "none",
+        "paddingBottom": "0.2em",
+        "paddingLeft": "1em",
+        "paddingRight": "1em",
+        "paddingTop": "0.2em",
+      }
+    }>
+    tag2
+  </span>
+  <span
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "color": "#a53d7c",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontSize": "14px",
+        "margin": "1px",
+        "marginTop": "0.2em",
+        "minHeight": "15px",
+        "outline": "none",
+        "paddingBottom": "0.2em",
+        "paddingLeft": "1em",
+        "paddingRight": "1em",
+        "paddingTop": "0.2em",
+      }
+    }>
+    tag3
+  </span>
+</div>
+`;

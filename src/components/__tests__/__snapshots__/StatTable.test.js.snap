@@ -1,0 +1,119 @@
+exports[`<StatTable /> renders a statisstic table 1`] = `
+<src
+  className="-striped -highlight"
+  column={
+    Object {
+      "className": "",
+      "headerClassName": "",
+      "headerInnerClassName": "",
+      "headerInnerStyle": Object {},
+      "headerStyle": Object {},
+      "innerClassName": "",
+      "innerStyle": Object {},
+      "show": true,
+      "sortable": true,
+      "style": Object {},
+    }
+  }
+  columns={
+    Array [
+      Object {
+        "accessor": "title",
+        "header": "Title ↓ ↑",
+        "render": [Function],
+        "sort": "asc",
+        "sortable": true,
+        "style": Object {
+          "width": 400,
+        },
+      },
+      Object {
+        "accessor": "tags",
+        "header": "Tags",
+        "render": [Function],
+        "style": Object {
+          "width": 400,
+        },
+      },
+      Object {
+        "accessor": "id",
+        "header": "Id",
+        "render": [Function],
+        "style": Object {
+          "textAlign": "center",
+          "width": 50,
+        },
+      },
+      Object {
+        "accessor": "csvURI",
+        "header": "CSV",
+        "render": [Function],
+        "style": Object {
+          "textAlign": "center",
+          "width": 200,
+        },
+      },
+      Object {
+        "accessor": "jsonURI",
+        "header": "JSON",
+        "render": [Function],
+        "style": Object {
+          "textAlign": "center",
+          "width": 200,
+        },
+      },
+    ]
+  }
+  data={Array []}
+  loading={false}
+  loadingComponent={[Function]}
+  loadingText="Loading..."
+  nextComponent={null}
+  nextText="Next"
+  onChange={[Function]}
+  pageSize={1}
+  pageSizeOptions={
+    Array [
+      5,
+      10,
+      20,
+      25,
+      50,
+      100,
+    ]
+  }
+  paginationClassName=""
+  paginationStyle={Object {}}
+  previousComponent={null}
+  previousText="Previous"
+  showPageJump={true}
+  showPageSizeOptions={true}
+  showPagination={false}
+  style={Object {}}
+  tableClassName=""
+  tableComponent={[Function]}
+  tableStyle={Object {}}
+  tbodyClassName=""
+  tbodyComponent={[Function]}
+  tbodyStyle={Object {}}
+  tdClassName=""
+  tdComponent={[Function]}
+  tdStyle={Object {}}
+  thClassName=""
+  thComponent={[Function]}
+  thGroupClassName=""
+  thStyle={Object {}}
+  theadClassName=""
+  theadComponent={[Function]}
+  theadStyle={
+    Object {
+      "background": "#d4d4d4",
+      "cursor": "default",
+    }
+  }
+  trClassCallback={[Function]}
+  trClassName=""
+  trComponent={[Function]}
+  trStyle={Object {}}
+  trStyleCallback={[Function]} />
+`;

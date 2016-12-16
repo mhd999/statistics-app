@@ -1,0 +1,14 @@
+exports[`<RowLink /> renders a link 1`] = `
+<a
+  href="http://localhost:80"
+  style={
+    Object {
+      "color": "#000000",
+      "fontSize": "12px",
+      "textDecoration": "underline",
+    }
+  }
+  target="_blank">
+  new page
+</a>
+`;

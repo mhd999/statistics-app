@@ -1,0 +1,33 @@
+{
+  "name": "ssb",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "enzyme": "^2.6.0",
+    "enzyme-to-json": "^1.4.4",
+    "eslint": "^3.8.1",
+    "eslint-plugin-flowtype": "^2.21.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "flow-bin": "^0.37.0",
+    "react-addons-test-utils": "^15.4.1",
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-styling": "^1.6.0",
+    "react-table": "^3.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "CI=true react-scripts test --env=jsdom && npm run test:lint && npm run test:typecheck",
+    "test:watch": "react-scripts test --env=jsdom",
+    "test:lint": "eslint src",
+    "test:typecheck": "flow check .",
+    "eject": "react-scripts eject"
+  }
+}

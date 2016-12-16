@@ -1,0 +1,12 @@
+exports[`<RowText /> renders a text 1`] = `
+<span
+  style={
+    Object {
+      "color": "#000000",
+      "fontSize": "12px",
+      "textDecoration": "underline",
+    }
+  }>
+  hello world
+</span>
+`;

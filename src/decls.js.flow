@@ -1,0 +1,14 @@
+declare type stat = {
+    id: string,
+    csvURI: string,
+    datasettURI: string,
+    jsonURI: string,
+    statistic: string,
+    tags: [],
+    title: string
+};
+
+declare type column = {
+    header: string,
+    accessor: string
+};

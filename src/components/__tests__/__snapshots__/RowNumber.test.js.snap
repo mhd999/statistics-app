@@ -1,0 +1,11 @@
+exports[`<RowNumber /> renders a number 1`] = `
+<span
+  style={
+    Object {
+      "color": "#000000",
+      "fontSize": "12px",
+    }
+  }>
+  123
+</span>
+`;
